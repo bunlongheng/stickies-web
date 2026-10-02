@@ -1,13 +1,13 @@
 import {
-  ArchiveBoxIcon, ArrowPathIcon, ArrowTrendingUpIcon, BanknotesIcon, BoltIcon, BookOpenIcon,
+  ArchiveBoxIcon, ArrowPathIcon, ArrowTrendingUpIcon, ArrowsRightLeftIcon, BanknotesIcon, BoltIcon, BookOpenIcon,
   BriefcaseIcon, BugAntIcon, CalendarDaysIcon, ChartBarIcon, ChatBubbleLeftRightIcon,
   CheckBadgeIcon, CheckCircleIcon, ClipboardDocumentListIcon, CloudIcon, CodeBracketIcon,
   CpuChipIcon, CubeTransparentIcon, DevicePhoneMobileIcon, DocumentTextIcon, EnvelopeIcon,
   ExclamationTriangleIcon, EyeIcon, FilmIcon, FolderIcon, GlobeAltIcon, GlobeAmericasIcon,
-  HomeIcon, IdentificationIcon, KeyIcon, LightBulbIcon, LinkIcon, MagnifyingGlassCircleIcon,
+  HomeIcon, IdentificationIcon, KeyIcon, LightBulbIcon, LinkIcon, LockOpenIcon, MagnifyingGlassCircleIcon,
   MagnifyingGlassIcon, MusicalNoteIcon, PhotoIcon, PuzzlePieceIcon, QuestionMarkCircleIcon,
-  RocketLaunchIcon, ShareIcon, SparklesIcon, StarIcon, SwatchIcon, TableCellsIcon, TrophyIcon,
-  UserCircleIcon, UserGroupIcon, WrenchIcon, WrenchScrewdriverIcon,
+  RectangleGroupIcon, RocketLaunchIcon, ShareIcon, SparklesIcon, Squares2X2Icon, StarIcon, SwatchIcon, TableCellsIcon, TrophyIcon,
+  UserCircleIcon, UserGroupIcon, UsersIcon, WrenchIcon, WrenchScrewdriverIcon,
 } from "@heroicons/react/24/solid";
 
 type Glyph = typeof DocumentTextIcon;
@@ -25,11 +25,11 @@ const HERO: Record<string, Glyph> = {
   ArchiveBoxIcon, ArrowPathIcon, BanknotesIcon, BoltIcon, BookOpenIcon, BriefcaseIcon, BugAntIcon,
   CalendarDaysIcon, ChartBarIcon, ChatBubbleLeftRightIcon, CheckCircleIcon,
   ClipboardDocumentListIcon, CloudIcon, CodeBracketIcon, CubeTransparentIcon,
-  DevicePhoneMobileIcon, DocumentTextIcon, EnvelopeIcon, FilmIcon, FolderIcon, GlobeAltIcon,
-  GlobeAmericasIcon, HomeIcon, IdentificationIcon, KeyIcon, LightBulbIcon, LinkIcon,
+  DevicePhoneMobileIcon, DocumentTextIcon, EnvelopeIcon, EyeIcon, FilmIcon, FolderIcon, GlobeAltIcon,
+  GlobeAmericasIcon, HomeIcon, IdentificationIcon, KeyIcon, LightBulbIcon, LinkIcon, LockOpenIcon,
   MagnifyingGlassIcon, MusicalNoteIcon, PhotoIcon, PuzzlePieceIcon, QuestionMarkCircleIcon,
   RocketLaunchIcon, ShareIcon, SparklesIcon, StarIcon, SwatchIcon, TableCellsIcon, UserGroupIcon,
-  WrenchIcon,
+  UsersIcon, WrenchIcon,
   // The web app's own token for an AI note; Heroicons has no robot.
   RobotIcon: CpuChipIcon,
 };
@@ -57,6 +57,9 @@ const APP: Record<string, Glyph> = {
   "app:skill-architect": WrenchScrewdriverIcon,
   "app:job": BriefcaseIcon,
   "app:jobs": BriefcaseIcon,
+  "app:sequences": ArrowsRightLeftIcon,
+  "app:flows": RectangleGroupIcon,
+  "app:mindmaps": Squares2X2Icon,
   "app:incident-report": ExclamationTriangleIcon,
   "app:countries": GlobeAmericasIcon,
   "app:bheng": UserCircleIcon,
